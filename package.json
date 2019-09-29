@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/style/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/style/ --recursive",
+    "deploy": "gh-pages -d dist"     
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,9 @@
   "bugs": {
     "url": "https://github.com/Campeanu/Portfolio/issues"
   },
-  "homepage": "https://github.com/Campeanu/Portfolio#readme",
+  "homepage": "https://Campeanu.github.io/Portfolio",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0"
   }
 }
