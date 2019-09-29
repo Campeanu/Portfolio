@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/index.css">
+
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-contact">
+      <a href="index.html">
+        <h2 class="logo"></h2>
+      </a>
+      <ul class="navigation">
+        <li>
+          <a href="index.html" class="active">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="projects.html">My Projects</a>
+        </li>
+        <li>
+          <a href="contact.html">Say Hello</a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="nav-link">
+            My Projects
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="contact.html" class="nav-link">
+            Say Hello
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contact">
+    <h1 class="lg-heading">
+      Say
+      <span class="text-secondary">Hello</span>
+    </h1>
+    <h2 class="sm-heading">
+      This is how you can reach me...
+    </h2>
+
+    <!-- 
+      <div class="email">
+          <p>SEND E-MAIL</p>
+          <form class="contact-form" action="includes/contactform.php">
+            <input type="text" name="name" placeholder="Full name">
+            <input type="text" name="mail" placeholder="Your e-mail">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" id="" placeholder="Message" cols="30" rows="10"></textarea>
+            <button type="submit" name="submit">SEND MAIL</button>
+          </form>
+      </div>
+    -->
+
+    <div class="container">
+      <p>SEND E-MAIL</p>
+      <div class="e-mail">
+        <form action="includes/contactform.php">
+          <div class="input-field">
+            <input type="text" name="name" required="">
+            <label for="">Your Full Name</label>
+            <span></span>
+          </div>
+          <div class="input-field">
+            <input type="text" name="mail" required="">
+            <label for="">Your e-mail</label>
+            <span></span>
+          </div>
+          <div class="input-field">
+            <input type="text" name="subject" required="">
+            <label for="">Subject</label>
+            <span></span>
+          </div>
+          <div class="input-field">
+            <textarea name="message" id="" cols="30" rows="5" required=""></textarea>
+            <label for="">Message</label>
+            <span class="tspan"></span>
+          </div>
+          <button type="submit" name="submit">SEND MAIL</button>
+        </form>
+      </div>
+      <div class="contact-data">
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2019
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
