@@ -129,25 +129,27 @@ body {
 }
 
 body#bg-img {
-    background: url(../img/background.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        background: url(../img/background.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
 }
 body#bg-img:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: rgba(68, 68, 68, 0.9);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba(68, 68, 68, 0.9);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 h1,
@@ -1052,6 +1054,20 @@ section {
 }
 
 @media (max-width: 980px) {
+
+    body#bg-img {
+        background: #444;
+    }
+    body#bg-img:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+    }
+
     .open .layer h1 {
         position: absolute;
         top: 30%;
